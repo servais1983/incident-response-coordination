@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-error {
+  color: #f44336;
+}
+
+.text-success {
+  color: #4caf50;
+}
+
+.text-warning {
+  color: #ff9800;
+}
+
+.text-info {
+  color: #2196f3;
+}
+
+/* Status colors */
+.status-new {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
+
+.status-investigating {
+  background-color: #fff9c4;
+  color: #fbc02d;
+}
+
+.status-containment {
+  background-color: #ffccbc;
+  color: #e64a19;
+}
+
+.status-eradication {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.status-recovery {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.status-closed {
+  background-color: #d1c4e9;
+  color: #4527a0;
+}
+
+/* Severity colors */
+.severity-critical {
+  background-color: #ef5350;
+  color: white;
+}
+
+.severity-high {
+  background-color: #ff9800;
+  color: white;
+}
+
+.severity-medium {
+  background-color: #ffeb3b;
+  color: #212121;
+}
+
+.severity-low {
+  background-color: #4caf50;
+  color: white;
+}
+
+.severity-info {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Task status colors */
+.task-pending {
+  background-color: #e0e0e0;
+  color: #424242;
+}
+
+.task-in-progress {
+  background-color: #fff9c4;
+  color: #f57f17;
+}
+
+.task-completed {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+.task-blocked {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+
+/* Helper classes */
+.clickable {
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
